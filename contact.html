@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Web Page</title>
+        <title>Cedar Barn Craft Company</title>
         <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
     </head>
     <body>
@@ -12,16 +12,61 @@
     	   <header>
             <img src="images/cedar-barn-logo.svg" alt="Cedar Barn Craft Company Logo" width="215" height="74">
             <nav>
-        	<div id="logo"><p>Logo</p></div><!--end logo-->
-            <nav id="mainNav"><p>Nav</p></nav><!--end mainNav-->
-        </header><!--end mainHeader-->
-        <section id="contentCon">
-        	<div id="content1"><p>Content Area 1</p></div><!--end content1-->
-        	<div id="content2"><p>Content Area 2</p></div><!--end content2-->
-        </section><!--end contentCon-->
-        <footer id="mainFooter">
-        	<div id="footerNav"><p>Footer Nav</p></div><!--end FooterNav-->
-            <div id="copyRight"><p>Copyright Info</p></div><!--end Copyright-->
+                 <h2 class="hidden">Main Navigation</h2>
+                   <ul>
+                       <li><a href="index.html">HOME</a></li>
+                       <li><a href="#">GIFT SETS</a></li>
+                       <li><a href="about.html">ABOUT US</a></li>
+                       <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
+        	
+            <section>
+                <h2>ORDER HERE</h2>
+                <section>
+                    <h2 class="hidden">Contact Form</h2>
+                    <p>To get in contact about ordering candles, or to ask any questions you may have, please fill out the form below.</p>
+                    <form action="form.php" method="post">
+                        <label for="name">Name: (required)</label>
+                        <input type="text" required id="name" placeholder="Enter your first and last name">
+
+                        <label for="email">Email:</label>
+                        <input type="email" required id="email" placeholder="Enter your email">
+
+                        <label for="phone">Phone:</label>
+                        <input type="tel" required id="phone" placeholder="Enter your Cell">
+
+                        <label for="comments">Comments</label>
+                        <textarea id="comments" required></textarea>
+
+                        <input type="submit" value="Submit">
+
+                    </form>
+                </section>
+
+                <section>
+                    <h2>Location</h2>
+                    <p>We do not have a storefront as of yet, everything is made at home! Once you have filled out the form we will be happy to help you out!</p>
+                </section>
+
+                <section>
+
+                <footer>
+        	    <div>
+                     <img src="images/cedar-barn-logo.svg" alt="Cedar Barn Craft Company Logo" width="215" height="74">
+                     <nav>
+                     <h2 class="hidden">Main Navigation</h2>
+                     <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#">GIFT SETS</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                         <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+                <div> 
         </footer><!--end mainFooter-->
     </div><!--end siteContainer-->
 <script src="js/main.js"></script>    
