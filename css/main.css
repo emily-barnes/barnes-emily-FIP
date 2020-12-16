@@ -4,14 +4,8 @@
 /*Remove this rule, this is only for demo purposes to make the boxes black with white text
 The line height on the <p> tag gives each box a height value*/
 
-p
-{
-	color: #718E8E;
-	line-height: 100px;
-	background:
-	text-align: center;
-	margin: 0;
-}
+
+
 
 /*basic reset*/
 /*browsers have built in values for elements so we'll reset a few things to zero, you can add to this or remove items as needed*/
@@ -104,6 +98,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	margin-left: auto;
 	width: 500px;
 	display: flex
+	margin-top: 10px;
 
 }
 
@@ -144,11 +139,8 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	padding-bottom: 40px;
 }
 
-/*Get rid of this, here just to give different height to productInfo*/
-#productInfo p 
-{
-	line-height: 300px;
-}
+
+
 
 .productDesc 
 {
@@ -188,10 +180,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 }
 
 /*Get rid of this, here just to give different height to promo*/
-#contentCon p 
-{
-	line-height: 630px;
-}
+
 
 #content1 
 {
@@ -217,10 +206,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 }
 
 /*Get rid of this, here just to give different height*/
-#productImages p
-{
-	line-height: 250px;
-}
+
 
 .productImg 
 {
@@ -236,10 +222,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 }
 
 /*Get rid of this, here just to give different height*/
-#contentAreaBig p 
-{
-	line-height: 300px;
-}
+
 
 #promoImageBig
 {
@@ -257,5 +240,12 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 .productDescLargeRight 
 {
 	width: 410px;
+}
+
+ul li
+{
+	display: inline;
+	float: right;
+
 }
 
